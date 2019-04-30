@@ -1,0 +1,377 @@
+/*
+Theme Name: Author 2018
+Author: David Salisbury
+Description: Author Template
+Version: 0.0.1
+Tags: author bootstrap
+*/
+
+/* line 4, ../sass/styles1.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 9, ../sass/styles1.scss */
+.calligraphyBG {
+  background: #fff url("../img/HandwritingBG.jpg") repeat center;
+}
+
+/* line 13, ../sass/styles1.scss */
+.starsBG {
+  background: #000 url("../img/StarryNightWeb.png") repeat center;
+}
+
+/* line 17, ../sass/styles1.scss */
+#Legacy {
+  color: #000;
+}
+
+/* line 21, ../sass/styles1.scss */
+.nav {
+  background-color: #fff;
+}
+
+/* line 25, ../sass/styles1.scss */
+p {
+  font-size: 120%;
+}
+
+/* line 28, ../sass/styles1.scss */
+.padmar {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 37, ../sass/styles1.scss */
+#lauren {
+  height: 460px;
+}
+
+/* line 46, ../sass/styles1.scss */
+.bg-green {
+  background-color: rgba(17, 56, 2, 0.87);
+}
+
+@font-face {
+  font-family: freeStyle;
+  src: url(../img/FreestyleScript.ttf);
+}
+/* line 55, ../sass/styles1.scss */
+.freeStyleH1 {
+  font-family: freeStyle;
+  font-size: 4em;
+}
+
+/* line 60, ../sass/styles1.scss */
+.freeStyleH4 {
+  font-family: freeStyle;
+  font-size: 2.5em;
+}
+
+/* line 66, ../sass/styles1.scss */
+footer h5, footer a {
+  color: white;
+}
+
+/* line 70, ../sass/styles1.scss */
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+/* line 76, ../sass/styles1.scss */
+#elfPic, #modelPic, #woodNymph, #apePic, #AlicePic {
+  background-image: url("../img/elfPicThumb.jpg");
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 84, ../sass/styles1.scss */
+#ThumbAlice, #ThumbElf, #Thumb3D {
+  cursor: pointer;
+  background-color: black;
+}
+
+/* line 90, ../sass/styles1.scss */
+#about {
+  background-color: #a3a2a2;
+}
+
+/* line 94, ../sass/styles1.scss */
+.card {
+  background-color: #EEE;
+  margin-top: 10px;
+}
+
+/* line 100, ../sass/styles1.scss */
+#videoContainer {
+  border: 2px;
+  border-color: grey;
+  background-color: #EEE;
+  padding: 10px 0px;
+}
+
+/* line 107, ../sass/styles1.scss */
+.pcPic {
+  width: 100%;
+  padding: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* line 116, ../sass/styles1.scss */
+#PC {
+  position: absolute;
+  display: block;
+  top: 5%;
+  left: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 126, ../sass/styles1.scss */
+#Tablet {
+  position: absolute;
+  display: block;
+  top: 39.5%;
+  left: 31%;
+  width: 9.5%;
+  z-index: 5;
+  -moz-transition: all 1s 0.2s;
+  -o-transition: all 1s 0.2s;
+  -webkit-transition: all 1s;
+  -webkit-transition-delay: 0.2s;
+  transition: all 1s 0.2s;
+}
+
+/* line 137, ../sass/styles1.scss */
+#Tablet.loadPosition {
+  left: 0%;
+  top: 10%;
+  width: 24%;
+}
+
+/* line 143, ../sass/styles1.scss */
+#Mobile {
+  display: block;
+  position: absolute;
+  top: 46%;
+  left: 63%;
+  width: 4.5%;
+  z-index: 4;
+  -moz-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -o-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -webkit-transition: width 1s, left 1s, top 1s;
+  -webkit-transition-delay: 0.2s, 0.2s, 0.2s;
+  transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+}
+
+/* line 154, ../sass/styles1.scss */
+#Tablet2 {
+  position: absolute;
+  display: block;
+  top: 51%;
+  left: 42.5%;
+  width: 3.75%;
+  z-index: 2;
+  -moz-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -o-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -webkit-transition: width 1s, left 1s, top 1s;
+  -webkit-transition-delay: 0.2s, 0.2s, 0.2s;
+  transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+}
+
+/* line 164, ../sass/styles1.scss */
+#Mobile2 {
+  display: block;
+  position: absolute;
+  top: 53%;
+  left: 55%;
+  width: 2%;
+  z-index: 3;
+  -moz-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -o-transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+  -webkit-transition: width 1s, left 1s, top 1s;
+  -webkit-transition-delay: 0.2s, 0.2s, 0.2s;
+  transition: width 1s 0.2s, left 1s 0.2s, top 1s 0.2s;
+}
+
+/* line 174, ../sass/styles1.scss */
+#introText1 {
+  display: none;
+}
+
+/* line 177, ../sass/styles1.scss */
+#introText2 {
+  display: block;
+}
+
+/* line 181, ../sass/styles1.scss */
+#collageParent {
+  display: block;
+  position: relative;
+}
+
+/* line 186, ../sass/styles1.scss */
+#collage {
+  display: block;
+  position: relative;
+  width: 94%;
+  left: 3%;
+  top: 7%;
+  z-index: 1;
+}
+
+/* line 195, ../sass/styles1.scss */
+#designCode {
+  display: block;
+  position: absolute;
+  width: 94%;
+  left: 3%;
+  top: 7%;
+  z-index: 2;
+  opacity: 0;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  -moz-transition: all 1.5s ease-out;
+  -o-transition: all 1.5s ease-out;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+}
+
+/* line 207, ../sass/styles1.scss */
+#designCode.takePosition {
+  opacity: 1;
+}
+
+/* line 211, ../sass/styles1.scss */
+#davidParent {
+  display: block;
+  position: relative;
+  padding: 0;
+}
+
+/* line 217, ../sass/styles1.scss */
+#davidBW {
+  display: block;
+  position: relative;
+  width: 60%;
+  left: 20%;
+  top: 0;
+  z-index: 1;
+  box-shadow: 3px 3px 3px #777;
+}
+
+/* line 227, ../sass/styles1.scss */
+#david {
+  display: block;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 0;
+  z-index: 2;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px #777;
+  opacity: 0;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  -moz-transition: all 1.5s ease-out;
+  -o-transition: all 1.5s ease-out;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+}
+
+/* line 241, ../sass/styles1.scss */
+#david.takePosition {
+  opacity: 1;
+}
+
+/* line 245, ../sass/styles1.scss */
+.card {
+  min-height: 100%;
+}
+
+/* line 249, ../sass/styles1.scss */
+#thumbPromoVid {
+  cursor: pointer;
+}
+
+/* line 253, ../sass/styles1.scss */
+#thumb3DVid {
+  cursor: pointer;
+}
+
+/* line 257, ../sass/styles1.scss */
+footer {
+  color: white;
+}
+
+/* line 260, ../sass/styles1.scss */
+footer a:hover, h6 {
+  text-decoration: none;
+  color: #bbb;
+}
+
+@media (min-width: 970px) {
+  /* line 266, ../sass/styles1.scss */
+  #introText1 {
+    display: block;
+  }
+
+  /* line 269, ../sass/styles1.scss */
+  #introText2 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 277, ../sass/styles1.scss */
+  .pcPic {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 575px) {
+  /* line 286, ../sass/styles1.scss */
+  collageGParent {
+    justify-content: center;
+  }
+
+  /* line 290, ../sass/styles1.scss */
+  #collage {
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  /* line 296, ../sass/styles1.scss */
+  #elf {
+    width: 32%;
+  }
+
+  /* line 300, ../sass/styles1.scss */
+  #nebula {
+    width: 23%;
+  }
+}
+/* line 307, ../sass/styles1.scss */
+#keepRatio {
+  position: relative;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding: 0px;
+  width: 100%;
+  padding-bottom: 57% !important;
+  /* 44% */
+}
