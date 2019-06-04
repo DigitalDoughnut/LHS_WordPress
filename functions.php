@@ -37,6 +37,7 @@ function add_classes_on_li($classes, $item, $args)
     return $classes;
 }
 }
+
 /*
 add_filter('wp_nav_menu', 'add_classes_on_a');
 function add_classes_on_a($ulclass)

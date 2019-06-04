@@ -9,8 +9,16 @@ Tags: author bootstrap
 /* line 4, ../sass/styles1.scss */
 body {
   overflow-x: hidden;
+  font-size: 100%;
 }
 
+.paginate-links {
+  font-size: 1.3em;
+}
+
+.paginate-links a {
+  color: rgba(17, 56, 2, 0.87);
+}
 
 .white-container {
   background-color: rgba(255,255,255,0.6);
@@ -22,7 +30,7 @@ body {
   
 /* line 9, ../sass/styles1.scss */
 .calligraphyBG {
-  background: #fff url("img/HandwritingBG.jpg") repeat center;
+  background: #fff url("img/HandwritingBG.jpg") repeat;
 }
 
 /* line 13, ../sass/styles1.scss */
